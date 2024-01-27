@@ -7,7 +7,6 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
 body {
   display: flex;
   padding: 0 10px;
@@ -23,7 +22,6 @@ body {
   background: #222;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
-
 .container h2 {
   font-size: 28px;
   font-weight: 600;
@@ -31,11 +29,9 @@ body {
   border-bottom: 1px solid #333;
   color: #fff;
 }
-
 .container .content {
   margin: 25px 20px 35px;
 }
-
 .content .word {
   user-select: none;
   font-size: 36px;
@@ -47,7 +43,6 @@ body {
   text-transform: uppercase;
   color: #5372f0;
 }
-
 .content .details {
   margin: 25px 0 20px;
 }
