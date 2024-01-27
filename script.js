@@ -1,6 +1,4 @@
-
 let words = [
-  // Each object represents a word and its hint
   {
     word: "addition",
     hint: "The process of adding numbers"
