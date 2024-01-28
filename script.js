@@ -113,7 +113,6 @@ const initTimer = (maxTime) => {
     initGame();
   }, 1000);
 };
-
 const initGame = () => {
   initTimer(30);
   let randomObj = words[Math.floor(Math.random() * words.length)];
@@ -129,7 +128,6 @@ const initGame = () => {
   inputField.setAttribute("maxlength", correctWord.length);
 };
 initGame();
-
 const checkWord = () => {
   let userWord = inputField.value.toLowerCase();
   if (!userWord) return alert("Please enter the word to check!");
@@ -138,6 +136,5 @@ const checkWord = () => {
   alert(`Congrats! ${correctWord.toUpperCase()} is the correct word`);
   initGame();
 };
-
 refreshBtn.addEventListener("click", initGame);
 checkBtn.addEventListener("click", checkWord);
